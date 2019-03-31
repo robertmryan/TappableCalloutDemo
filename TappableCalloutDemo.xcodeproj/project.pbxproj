@@ -12,6 +12,7 @@
 		839BC70F225120240041B4B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839BC70D225120240041B4B7 /* Main.storyboard */; };
 		839BC711225120250041B4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839BC710225120250041B4B7 /* Assets.xcassets */; };
 		839BC714225120250041B4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839BC712225120250041B4B7 /* LaunchScreen.storyboard */; };
+		839BC71C225120C80041B4B7 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839BC71B225120C80041B4B7 /* CustomAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		839BC710225120250041B4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839BC713225120250041B4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839BC715225120250041B4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839BC71B225120C80041B4B7 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		839BC71D2251330E0041B4B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		839BC6FD225120240041B4B7 = {
 			isa = PBXGroup;
 			children = (
+				839BC71D2251330E0041B4B7 /* README.md */,
 				839BC708225120240041B4B7 /* TappableCalloutDemo */,
 				839BC707225120240041B4B7 /* Products */,
 			);
@@ -56,6 +60,7 @@
 			children = (
 				839BC709225120240041B4B7 /* AppDelegate.swift */,
 				839BC70B225120240041B4B7 /* ViewController.swift */,
+				839BC71B225120C80041B4B7 /* CustomAnnotationView.swift */,
 				839BC70D225120240041B4B7 /* Main.storyboard */,
 				839BC710225120250041B4B7 /* Assets.xcassets */,
 				839BC712225120250041B4B7 /* LaunchScreen.storyboard */,
@@ -136,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				839BC70C225120240041B4B7 /* ViewController.swift in Sources */,
+				839BC71C225120C80041B4B7 /* CustomAnnotationView.swift in Sources */,
 				839BC70A225120240041B4B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
